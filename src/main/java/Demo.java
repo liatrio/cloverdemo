@@ -6,4 +6,8 @@ public class Demo {
         this.s = "Hello world!";
     }
 
+    public void main(){
+        System.out.println("Hello");
+    }
+
 }
