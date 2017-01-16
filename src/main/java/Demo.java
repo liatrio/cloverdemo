@@ -1,13 +1,13 @@
-
 public class Demo {
     public String s;
 
-    public Demo(){
+    public Demo() {
         this.s = "Hello world!";
     }
 
-    public void main(){
-        System.out.println("Hello");
-    }
+    public void another_method() {this.s = "it"; }
 
+    public void main() {
+        System.out.println(s);
+    }
 }
