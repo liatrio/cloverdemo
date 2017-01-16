@@ -8,4 +8,9 @@ public class DemoTest {
     public void test1() {
         assertTrue(testClass.s == "Hello world!");
     }
+
+    @Test
+    public void test2(){
+        assertTrue( testClass.foo_bar() == "Foo");
+    }
 }

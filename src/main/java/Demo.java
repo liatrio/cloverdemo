@@ -7,8 +7,8 @@ public class Demo {
 
     public void another_method() {this.s = "it"; }
 
-    public void main() {
-        if (1==1) System.out.println("Foo");
-        else System.out.println("Bar");
+    public String foo_bar() {
+        if (1==1) return ("Foo");
+        else return ("Bar");
     }
 }
