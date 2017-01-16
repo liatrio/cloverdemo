@@ -9,6 +9,6 @@ public class Demo {
 
     public String foo_bar() {
         if (1==1) return ("Foo");
-        else return ("Bar");
+//        else return ("Bar");
     }
 }
