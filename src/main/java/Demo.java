@@ -11,10 +11,14 @@ public class Demo {
 
     public String foo_bar() {
         s = "b";
-        System.out.println("a");
-        System.out.println("a");
-        System.out.println("a");
-        System.out.println("a");
-        return s;
+
+        if (s == "b") {
+            System.out.println("a");
+            System.out.println("a");
+            System.out.println("a");
+            System.out.println("a");
+            return s;
+        }
+        else return s;
     }
 }

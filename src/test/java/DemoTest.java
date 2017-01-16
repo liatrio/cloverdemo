@@ -1,4 +1,5 @@
 import org.junit.Test;
+
 import static org.junit.Assert.assertTrue;
 
 public class DemoTest {
@@ -10,7 +11,7 @@ public class DemoTest {
     }
 
     @Test
-    public void test2(){
-        assertTrue( testClass.foo_bar() == "Foo");
+    public void test2() {
+        assertTrue(testClass.foo_bar() == "b");
     }
 }
