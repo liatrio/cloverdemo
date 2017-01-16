@@ -3,15 +3,15 @@ import org.junit.Test;
 import static org.junit.Assert.assertTrue;
 
 public class DemoTest {
-    Demo testClass = new Demo();
+    private Demo testClass = new Demo();
 
     @Test
     public void test1() {
-        assertTrue(testClass.s == "Hello world!");
+        assertTrue(testClass.s.equals("Hello world!"));
     }
 
     @Test
     public void test2() {
-        assertTrue(testClass.foo_bar() == "b");
+        assertTrue(testClass.return_string().equals("b"));
     }
 }

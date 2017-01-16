@@ -9,10 +9,10 @@ public class Demo {
         this.s = "it";
     }
 
-    public String foo_bar() {
+    public String return_string() {
         s = "b";
 
-        if (s == "b") {
+        if (1 == 1) {
             System.out.println("a");
             System.out.println("a");
             System.out.println("a");
