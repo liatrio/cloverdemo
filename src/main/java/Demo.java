@@ -9,10 +9,12 @@ public class Demo {
         this.s = "it";
     }
 
-    public void foo_bar() {
+    public String foo_bar() {
+        s = "b";
         System.out.println("a");
         System.out.println("a");
         System.out.println("a");
         System.out.println("a");
+        return s;
     }
 }
