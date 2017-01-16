@@ -8,6 +8,7 @@ public class Demo {
     public void another_method() {this.s = "it"; }
 
     public void main() {
-        System.out.println(s);
+        if (1==1) System.out.println("Foo");
+        else System.out.println("Bar");
     }
 }
