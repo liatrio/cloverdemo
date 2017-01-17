@@ -5,8 +5,16 @@ public class Demo {
         this.s = "Hello world!";
     }
 
-    public void another_method() {
-        this.s = "it";
+    public String another_method() {
+
+        if (1 == 1) {
+             this.s = "if";
+             return this.s;
+        }
+        else {
+            this.s = "else";
+            return s;
+        }
     }
 
     public String return_string() {

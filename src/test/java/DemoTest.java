@@ -6,6 +6,12 @@ public class DemoTest {
     private Demo testClass = new Demo();
 
     @Test
+    public void test0(){
+        assertTrue(testClass.another_method().equals("if"));
+    }
+
+
+    @Test
     public void test1() {
         assertTrue(testClass.s.equals("Hello world!"));
     }
