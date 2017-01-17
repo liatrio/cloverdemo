@@ -5,29 +5,15 @@ public class Demo {
         this.s = "Hello world!";
     }
 
-    public String another_method() {
-
-        if (1 == 1) {
-             this.s = "if";
-             return this.s;
-        }
-        else {
-            this.s = "else";
-            return s;
-        }
+    public boolean is_foo(String a) {
+        if (a.equals("foo")) return true;
+        else return false;
     }
 
-    public String return_string(int a, int b) {
-        s = "b";
-
+    public boolean is_greater(int a, int b) {
         if (a >= b) {
             System.out.println("a");
-            System.out.println("a");
-            System.out.println("a");
-            System.out.println("a");
-            System.out.println("a");
-            return s;
-        }
-        else return s;
+            return true;
+        } else return false;
     }
 }
