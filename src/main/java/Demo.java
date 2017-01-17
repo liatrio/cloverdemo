@@ -19,8 +19,10 @@ public class Demo {
 
     public String return_string() {
         s = "b";
-
-        if (1 == 1) {
+        String a = "a";
+        String b = "a";
+        
+        if (a.equals(b)) {
             System.out.println("a");
             System.out.println("a");
             System.out.println("a");
