@@ -17,12 +17,10 @@ public class Demo {
         }
     }
 
-    public String return_string() {
+    public String return_string(int a, int b) {
         s = "b";
-        String a = "a";
-        String b = "a";
 
-        if (1 == 1) {
+        if (a >= b) {
             System.out.println("a");
             System.out.println("a");
             System.out.println("a");

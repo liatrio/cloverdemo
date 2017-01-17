@@ -15,6 +15,6 @@ public class DemoTest {
 
     @Test
     public void test2() {
-        assertTrue(testClass.return_string().equals("b"));
+        assertTrue(testClass.return_string(3,5).equals("b"));
     }
 }
