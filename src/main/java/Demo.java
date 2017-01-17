@@ -21,8 +21,8 @@ public class Demo {
         s = "b";
         String a = "a";
         String b = "a";
-        
-        if (a.equals(b)) {
+
+        if (1 == 1) {
             System.out.println("a");
             System.out.println("a");
             System.out.println("a");
