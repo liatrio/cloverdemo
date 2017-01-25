@@ -1,10 +1,6 @@
 public class Demo {
     public String s;
 
-    public Demo() {
-        this.s = "Hello world!";
-    }
-
     public boolean is_foo(String a) {
         if (a.equals("foo")) return true;
         else return false;

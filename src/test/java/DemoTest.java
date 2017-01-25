@@ -7,22 +7,15 @@ public class DemoTest {
     private Demo testClass = new Demo();
 
     @Test
-    public void test1() {
-        assertTrue(testClass.is_foo("foo"));
-    }
+    public void test1() {assertTrue(testClass.is_foo("foo"));}
 
     @Test
     public void test2() {
-        assertTrue(testClass.s.equals("Hello world!"));
-    }
-
-    @Test
-    public void test3() {
         assertFalse(testClass.is_greater(3, 5));
     }
 
     @Test
-    public void test4() {
+    public void test3() {
         assertTrue(testClass.is_greater(5, 3));
     }
 }
