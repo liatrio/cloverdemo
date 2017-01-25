@@ -9,13 +9,13 @@ public class DemoTest {
     @Test
     public void test1() {assertTrue(testClass.is_foo("foo"));}
 
-    @Test
-    public void test2() {
-        assertFalse(testClass.is_greater(3, 5));
-    }
-
-    @Test
-    public void test3() {
-        assertTrue(testClass.is_greater(5, 3));
-    }
+//    @Test
+//    public void test2() {
+//        assertFalse(testClass.is_greater(3, 5));
+//    }
+//
+//    @Test
+//    public void test3() {
+//        assertTrue(testClass.is_greater(5, 3));
+//    }
 }
