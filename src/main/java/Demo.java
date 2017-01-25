@@ -1,5 +1,6 @@
 public class Demo {
     public String s;
+    public String ss;
 
     public boolean is_foo(String a) {
         if (a.equals("foo")) return true;
